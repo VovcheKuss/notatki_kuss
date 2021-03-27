@@ -1,0 +1,160 @@
+object Form1: TForm1
+  Left = 1221
+  Height = 473
+  Top = 426
+  Width = 856
+  Caption = 'Нотатки Кусь))'
+  ClientHeight = 473
+  ClientWidth = 856
+  Color = 3483932
+  LCLVersion = '2.0.12.0'
+  object Memo1: TMemo
+    Left = 8
+    Height = 407
+    Top = 8
+    Width = 840
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    Color = 4864043
+    Font.Color = 16119285
+    Font.Height = -16
+    Font.Name = 'Noto Sans'
+    ParentFont = False
+    ScrollBars = ssAutoBoth
+    TabOrder = 0
+  end
+  object Name_Doc: TButton
+    Left = 8
+    Height = 38
+    Top = 424
+    Width = 110
+    Align = alCustom
+    Anchors = [akLeft, akRight, akBottom]
+    BorderSpacing.Around = 4
+    Caption = 'Назвати'
+    Color = 3545626
+    Constraints.MaxHeight = 38
+    Constraints.MaxWidth = 110
+    Constraints.MinHeight = 38
+    Constraints.MinWidth = 110
+    Font.Color = 16119285
+    OnClick = Name_DocClick
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Save_Doc: TButton
+    Left = 130
+    Height = 38
+    Top = 424
+    Width = 110
+    Align = alCustom
+    Anchors = [akLeft, akRight, akBottom]
+    BorderSpacing.Around = 4
+    Caption = 'Зберегти'
+    Color = 3545626
+    Constraints.MaxHeight = 38
+    Constraints.MaxWidth = 110
+    Constraints.MinHeight = 38
+    Constraints.MinWidth = 110
+    Enabled = False
+    Font.Color = 16119285
+    OnClick = Save_DocClick
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Copy_All: TButton
+    Left = 252
+    Height = 38
+    Top = 424
+    Width = 110
+    Align = alCustom
+    Anchors = [akLeft, akRight, akBottom]
+    BorderSpacing.Around = 4
+    Caption = 'Копіювати все'
+    Color = 3545626
+    Constraints.MaxHeight = 38
+    Constraints.MaxWidth = 110
+    Constraints.MinHeight = 38
+    Constraints.MinWidth = 110
+    Font.Color = 16119285
+    OnClick = Copy_AllClick
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Insert_Text: TButton
+    Left = 374
+    Height = 38
+    Top = 424
+    Width = 110
+    Align = alCustom
+    Anchors = [akLeft, akRight, akBottom]
+    BorderSpacing.Around = 4
+    Caption = 'Вставити'
+    Color = 3545626
+    Constraints.MaxHeight = 38
+    Constraints.MaxWidth = 110
+    Constraints.MinHeight = 38
+    Constraints.MinWidth = 110
+    Font.Color = 16119285
+    OnClick = Insert_TextClick
+    ParentFont = False
+    TabOrder = 4
+  end
+  object Clear_All: TButton
+    Left = 496
+    Height = 38
+    Top = 424
+    Width = 110
+    Align = alCustom
+    Anchors = [akLeft, akRight, akBottom]
+    BorderSpacing.Around = 4
+    Caption = 'Очистити'
+    Color = 3545626
+    Constraints.MaxHeight = 38
+    Constraints.MaxWidth = 110
+    Constraints.MinHeight = 38
+    Constraints.MinWidth = 110
+    Font.Color = 16119285
+    OnClick = Clear_AllClick
+    ParentFont = False
+    TabOrder = 5
+  end
+  object Day_Mode: TButton
+    Left = 616
+    Height = 38
+    Top = 424
+    Width = 110
+    Align = alCustom
+    Anchors = [akRight, akBottom]
+    BorderSpacing.Around = 4
+    Caption = 'Денна тема'
+    Color = 3545626
+    Constraints.MaxHeight = 38
+    Constraints.MaxWidth = 110
+    Constraints.MinHeight = 38
+    Constraints.MinWidth = 110
+    Font.Color = 16119285
+    OnClick = Day_ModeClick
+    ParentFont = False
+    TabOrder = 6
+  end
+  object Dark_Mode: TButton
+    Left = 738
+    Height = 38
+    Top = 424
+    Width = 110
+    Align = alCustom
+    Anchors = [akRight, akBottom]
+    BorderSpacing.Around = 4
+    Caption = 'Нічна тема'
+    Color = 3545626
+    Constraints.MaxHeight = 38
+    Constraints.MaxWidth = 110
+    Constraints.MinHeight = 38
+    Constraints.MinWidth = 110
+    Enabled = False
+    Font.Color = 16119285
+    OnClick = Dark_ModeClick
+    ParentFont = False
+    TabOrder = 7
+  end
+end
